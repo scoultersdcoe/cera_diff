@@ -1,0 +1,20 @@
+## The Effects of Differentiated Assistance on Student Achievement
+
+* Name: Shannon Coulter
+* Organization/institution: San Diego County Office of Education
+* Email: scoulter@sdcoe.net
+
+* English
+
+### Summary
+
+This presentation shares the San Diego County Office of Education's attempt to determine the effects of differentiated assistance (DA) on student learning outcomes.  SDCOE observed outcomes in districts who received assistance (treated) and districts not eligible for assistance (control), both before and after the DA policy change. Armed with these observations, they computed a  difference between the post policy performance and pre-policy performance across both groups, and then   subtracted this first difference in the control from the treatment group. In this way, the DD design removes the influence of the pre-policy performance in the first difference and the second difference removes the change that occurred in the control group over the analytic window, which leaves an estimate of the effect of the intervention. DA showed no effects on student achievement or the achievement gap. SDCOE provided both takeaways and policy implications in their analysis.
+
+* The slides are available at:
+
+  * https://cera2021da.netlify.app
+
+### Keywords
+
+accountability; differentiated assistance; ESSA; difference in differences
+

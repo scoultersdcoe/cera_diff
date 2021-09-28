@@ -13,7 +13,7 @@ output:
     seal: false
     self_contained: false
     nature:
-      highlightStyle: googlecode
+      highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: 191:100
@@ -72,21 +72,15 @@ xaringanExtra::use_share_again()
 xaringanExtra::style_share_again(
   share_buttons = c("twitter", "linkedin", "pocket")
 )
-# uncomment the following lines if you want to use the NHS-R theme colours by default
-# scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
-# scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
-# scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
-# scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
 ```
 
 class: title-slide, right, top
-background-image: url(img/bubbles.jpg)
-background-position: 75% 75%
+background-image: url(img/working.jpg)
 background-size: cover
 
 .right-column[
 # `r rmarkdown::metadata$title`
-### `r rmarkdown::metadata$subtitle`
+### Understanding the Causal Impact<br>of District-level Interventions
 
 **`r rmarkdown::metadata$author`** <br>
 `r rmarkdown::metadata$date` <br><br>
@@ -96,7 +90,7 @@ CERA 2021 <br>
 
 .left[
 .footnote[
-Graphic by [Boom](https://www.rawpixel.com/image/3112764/free-photo-image-marble-background-aesthetic)
+Graphic by [Jubjang](https://www.rawpixel.com/image/3112764/free-photo-image-marble-background-aesthetic)
 ]
 ]
 
@@ -169,10 +163,8 @@ Dan Wolfson
 Steve Green
 
 ---
-
 name: section slide
 background-image: url(img/camping2.jpg)
-background-position: 75% 75%
 background-size: cover
 
 class: left
@@ -190,8 +182,7 @@ class: left
 Steve...
 
 ---
-
-name: problem
+name: shifts
 
 ## Why Shift?
 
@@ -229,7 +220,6 @@ With the funding changes, our accountability changed. State law mandated that Ca
 These shifts, initiated by accountability policies, created a different landscape in California and produced *a rich opportunity for us to figure out the causal impact of turning on this assistance for low performing school districts*.
 
 ---
-
 name: context-imageCA
 class: top, left
 
@@ -249,6 +239,8 @@ These districts include small school districts in rural northern California such
 ```{r fig.show="hide", include=FALSE, CA-map, eval=TRUE}
 knitr::include_graphics("img/CA_pic.png")
 ```
+
+--
 
 .pull-right[
 ```{r, ref.label= "CA-map", out.width="80%"}
@@ -282,6 +274,8 @@ class: top, left
 3. Builds capacity of school level teams to improve academic outcomes and close achievement gaps.
 ]
 
+--
+
 .pull-right[
 <img src = "img/toc.png" style = "float:right; width = 80%" class = "align right" />
 ]
@@ -295,7 +289,6 @@ As such, DA is a multistage process that utilizes a district-based team of 4-12 
 Teams receive individual support from COEs in the form of improvement coaching throughout the DA process, which involves a needs assessment, root cause analysis, and continuous improvement action planning. The figure to the right outlines DA’s theory of action.
 
 ---
-
 name: intervention plot
 
 ##Does Accountability Matter?
@@ -330,10 +323,8 @@ Overall, this research suggests that changes in achievement occurred when states
 The California System of Support model uses most of this research. It focuses on a process for determining the needs of districts and carrying out a plan to address the needs versus replacing structural components in the system such as principals and teachers. California’s accountability policies also focus on a process to learn and improve versus a corrective process that punishes schools and districts.
 
 ---
-
 name: section slide
 background-image: url(img/learning2.jpg)
-background-position: 75% 75%
 background-size: cover
 
 <br><br><br><br><br><br><br><br><br><br><br>
@@ -347,7 +338,6 @@ background-size: cover
 Shannon...
 
 ---
-
 name: first question
 background-color: #ff435b
 class: middle, center
@@ -366,7 +356,6 @@ class: middle, center
 Shannon.We were interested in learning answers to two major questions. The first question was how assistance changed student achievement. That is to say, in 2016-17, when DA turned on officially for some districts, how did student achievement change?
 
 ---
-
 name: second question
 background-color: #ff435b
 class: middle, center
@@ -384,7 +373,6 @@ class: middle, center
 Shannon.Our second question focused on the achievement gap. We were interested in changes occurring to the achievement gap after the DA policy turned on for districts.
 
 ---
-
 name: method
 class: 
 
@@ -420,7 +408,6 @@ We estimated the impact of assistance using a difference-in-differences design. 
 To use a DD, we observe outcomes in districts who received assistance (treated) and districts not eligible for assistance (control), both before and after the policy change. Armed with our observations, we compute a simple difference between the post policy performance and pre-policy performance across both groups, and then we simply subtract this first difference in the control from the treatment group. In this way, the DD design removes the influence of the pre-policy performance in the first difference and the second difference removes the change that occurred in the control group over the analytic window, which leaves an estimate of the effect of the intervention.
 
 ---
-
 name: methods-table
 
 ##Descriptives
@@ -447,7 +434,7 @@ It's important to ensure our two groups have comparable trends in student achiev
 name: model
 class: 
 
-# Model
+##Model
 
 ----
 <br>
@@ -465,7 +452,6 @@ Shannon.We  compared differentiated assistance districts to a subset of 270
 general assistance districts with both low status and growth in 2017, the same year our assistance policy turned on for some districts. We constructed this restricted sample using the California Schools Dashboard, which assigns every district a color based on its performance. THE CDE calculates each district's performance based on data from current and prior years, resulting in a five color-coded performance levels for each indicator. Our comparison districts performance increased by less than 15 points, had low or very low status, and were not eligible for assistance. Most of these districts were orange on the Dashboards's five-by-five colored table compared to DA districts, which were mostly red.
 
 ---
-
 name: DD
 
 ## Difference-in-Differences
@@ -490,10 +476,9 @@ knitr::include_graphics("img/image009.png")
 Shannon.So this is what a DD design is doing behind the scenes. DD makes use of longitudinal data from treatment and control groups to obtain an appropriate counterfactual to estimate a causal effect. DD estimates the effect of a specific intervention by comparing the changes in outcomes over time between a population that is enrolled in a program and a population that is not.
 
 ---
-
 name: comparison
 
-# Comparison
+##Comparison
 
 ----
 .left-column[
@@ -514,7 +499,6 @@ Shannon.Shannon.*Similar districts*. We compared districts receiving assistance 
 The figure depicts differences between three groups. The dotted line represents the performance of differentiated assistance districts across our analytic window, while the dashed line represents the performance of the subset of 270 low status and growth general assistance districts. Comparatively, the solid line represents districts with high status, those districts in the green and blue on the California Schools Dashboard. It is highly improbable that any of these districts would become eligible for DA. As evidenced in the graph, their performance actually improved during the eligibility year.
 
 ---
-
 name: results-1
 
 ## Results
@@ -544,7 +528,6 @@ Estimates in mathematics were similar. Mathematics test scores on average declin
 different from zero.
 
 ---
-
 name: results-2
 
 ## Results
@@ -574,10 +557,8 @@ However, none of the results are significantly different from zero. All we can s
 
 
 ---
-
 name: section slide
 background-image: url(img/improve.jpg)
-background-position: 100%
 background-size: cover
 
 <br><br><br><br><br><br><br><br><br><br><br>
@@ -591,7 +572,6 @@ background-size: cover
 Dan
 
 ---
-
 name: takeaways
 background-color: #ff435b
 class: middle, center
@@ -600,7 +580,6 @@ class: middle, center
 # Key Takeaways
 
 ---
-
 name: takeaways-1
 
 ## Key Takeaways
@@ -648,7 +627,6 @@ County offices of education don’t implement differentiated assistance consiste
 
 
 ---
-
 name: implications
 background-color: #ff435b
 class: middle, center
@@ -657,7 +635,6 @@ class: middle, center
 # Implications
 
 ---
-
 name: implications-1
 
 ## Implications
@@ -688,7 +665,6 @@ Improvements in student achievement could take three to five years. Also, the pa
 
 
 ---
-
 name: improvement-guide
 class: inverse, middle, center
 
@@ -700,8 +676,8 @@ class: inverse, middle, center
 ???
 
 Dan. Link to improvement guide.
----
 
+---
 name: thank-you
 class: inverse, middle, center
 

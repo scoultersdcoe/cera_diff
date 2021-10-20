@@ -23,6 +23,7 @@ output:
           <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
           </div>
         </div>
+      
 ---
 
 ```{r meta, echo=FALSE, message=FALSE, warning=FALSE}
@@ -72,6 +73,7 @@ xaringanExtra::use_share_again()
 xaringanExtra::style_share_again(
   share_buttons = c("twitter", "linkedin", "pocket")
 )
+
 ```
 
 class: title-slide, right, top
@@ -296,15 +298,17 @@ name: intervention plot
 ----
 
 .left-column[
-<br>Most accountability interventions have limited effects on student learning outcomes. The greatest changes in student achievement occurred when states *invested sufficient resources* into district capacity and when districts and schools *implemented interventions effectively*.
+<br><br>
+Most accountability interventions have limited effects on student learning outcomes. The greatest changes in student achievement occurred when states *invested sufficient resources* into district capacity and when districts and schools *implemented interventions effectively*.
 ]
+
 
 ```{r fig.show="hide", include=FALSE, ggdotchart, eval=TRUE}
 knitr::include_graphics("img/effect.png")
 ```
 
 .right-column[
-```{r, ref.label= "ggdotchart", fig.align='center', out.width="90%"}
+```{r, ref.label= "ggdotchart", fig.align='center', out.width="80%"}
 ```
 ]
 
@@ -459,7 +463,8 @@ name: DD
 ----
 
 .left-column[
-<br>DD makes use of longitudinal data from treatment and control groups to obtain a counterfactual to estimate a causal effect. DD estimates the effect of a specific intervention by comparing the changes in outcomes over time between a population that is enrolled in a program and a population that is not.
+<br><br>
+DD makes use of longitudinal data from treatment and control groups to obtain a counterfactual to estimate a causal effect. DD estimates the effect of a specific intervention by comparing the changes in outcomes over time between a population that is enrolled in a program and a population that is not.
 ]
 
 ```{r fig.show="hide", include=FALSE, did-explain, eval=TRUE}
@@ -467,7 +472,7 @@ knitr::include_graphics("img/did_explained.png")
 ```
 
 .right-column[
-```{r, ref.label= "did-explain", fig.align='center', out.width="90%"}
+```{r, ref.label= "did-explain", fig.align='center', out.width="80%"}
 ```
 ]
 
@@ -482,14 +487,15 @@ name: comparison
 
 ----
 .left-column[
-<br>Our study represents two group: the bottom  line represents the trends in DA districts and the line above is our comparison group of similar districts. The top solid line is the achievement of all other districts not receiving assistance.
+<br><br>
+Our study represents two group: the bottom  line represents the trends in DA districts and the line above is our comparison group of similar districts. The top solid line is the achievement of all other districts not receiving assistance.
 ]
 ```{r fig.show="hide", include=FALSE, ela-comparison, eval=TRUE}
 knitr::include_graphics("img/comparison.png")
 ```
 
 .right-column[
-```{r, ref.label= "ela-comparison", fig.align='center', out.width="90%"}
+```{r, ref.label= "ela-comparison", fig.align='center', out.width="80%"}
 ```
 ]
 ???
@@ -507,14 +513,14 @@ name: results-1
 
 .left-column[
 
-<br>These effects represent the mean difference between the assistance and non-assistance groups in standard deviation units. For both years and across both ELA and math the mean difference in the assistance districts compared to the non-assistance districts was no different from zero.
+<br><br>These effects represent the mean difference between the assistance and non-assistance groups in standard deviation units. For both years and across both ELA and math the mean difference in the assistance districts compared to the non-assistance districts was no different from zero.
 ]
 ```{r fig.show="hide", include=FALSE, achievement, eval=TRUE}
 knitr::include_graphics("img/result_1.png")
 ```
 
 .right-column[
-```{r, ref.label= "achievement", fig.align='center', out.width="90%"}
+```{r, ref.label= "achievement", fig.align='center', out.width="80%"}
 ```
 ]
 
@@ -534,14 +540,14 @@ name: results-2
 
 ----
 .left-column[
-<br>The achievement gap between low-income districts receiving assistance relative to other groups decreased modestly after the first year after the policy change in both ELA and math. These effects appear to dissipate in year two. Unfortunately, none of the results are significantly different from zero.
+<br><br>The achievement gap between low-income districts receiving assistance relative to other groups decreased modestly after the first year after the policy change in both ELA and math. These effects appear to dissipate in year two. Unfortunately, none of the results are significantly different from zero.
 ]
 ```{r fig.show="hide", include=FALSE, achievement-gap, eval=TRUE}
 knitr::include_graphics("img/result_2.png")
 ```
 
 .right-column[
-```{r, ref.label= "achievement-gap", fig.align='center', out.width="90%"}
+```{r, ref.label= "achievement-gap", fig.align='center', out.width="80%"}
 ```
 ]
 

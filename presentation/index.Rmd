@@ -299,7 +299,7 @@ name: intervention plot
 
 .left-column[
 <br><br>
-Most accountability interventions have limited effects on student learning outcomes. The greatest changes in student achievement occurred when states *invested sufficient resources* into district capacity and when districts and schools *implemented interventions effectively*.
+Most district-level accountability interventions have limited effects on student learning outcomes. The greatest changes in student achievement occurred when states *invested sufficient resources* into district capacity and when districts and schools *implemented interventions effectively*.
 ]
 
 
@@ -358,6 +358,30 @@ class: middle, center
 ???
 
 Shannon.We were interested in learning answers to two major questions. The first question was how assistance changed student achievement. That is to say, in 2016-17, when DA turned on officially for some districts, how did student achievement change?
+
+Overall Considerations?
+
+What is my research question?
+
+What is my treatment effect of interest?
+
+Where is the variance in my outcome?
+
+Where is the variance in my "treatment"?
+
+How many subjects change?
+
+When do they change?
+
+Do they only change in one direction?
+
+How can I ensure the best counterfactual comparisons?
+
+Use within-subjects comparisons where you can
+
+Use time to consider counterfactual trajectories
+
+What assumptions is my model making?
 
 ---
 name: second question

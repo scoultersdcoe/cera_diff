@@ -714,7 +714,7 @@ name: implementation-guide
 class: inverse, middle, center
 
 `r icons::icon_style(icons::fontawesome("parachute-box"), scale = 4)`
-## Improvement Guide
+## Implementation Guide
 
 [Implementation Guide](https://www.sdcoe.net/lls/assessment/Pages/evaluation-reports.aspx)
 

@@ -130,7 +130,7 @@ knitr::include_graphics("img/Wolfson_Headshot.png")
 ```
 .pull-left[
 - Executive Director of Learning and Leadership Services
-- Director California System of Support
+- Director California System of Support (San Diego)
 ]
 
 .pull-right[
@@ -143,11 +143,11 @@ knitr::include_graphics("img/Wolfson_Headshot.png")
 
 
 ```{r fig.show="hide", include=FALSE, picture-knitr-green, eval=TRUE}
-knitr::include_graphics("img/Coulter_Headshot.jpg")
+knitr::include_graphics("img/Green_Headshot.jpg")
 ```
 .pull-left[
 - Senior Director of Assessment, Accountability, and Evaluation
-- Director Differentiated Assistance Year 3
+- Director Differentiated Assistance (San Diego)
 ]
 
 .pull-right[

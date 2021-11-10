@@ -108,7 +108,7 @@ class: about-us-slide, inverse, middle, left
 ]
 
 .pull-right[
-&lt;img src="img/Coulter_Headshot.jpg" width="90%" /&gt;
+&lt;img src="img/Wolfson_Headshot.png" width="90%" /&gt;
 ]
 ] &lt;!----&gt;
 
@@ -181,7 +181,8 @@ Increased accountability of school funding mandated that California’s 54 count
 
 ???
 
-Steve. There are a number of reasons why we decided to explore the effects of differentiated assistance. 
+Steve. 
+There are a number of reasons why we decided to explore the effects of differentiated assistance. 
 
 First, we know we have persistent inequities in access and opportunity in California, Those inequities are present across many student outcomes, but are especially prominent in academics where Hispanic and African-American students trail white and Asian-American students in ELA and mathematics by double digits.
 
@@ -219,7 +220,8 @@ These districts include small school districts in rural northern California such
 
 ???
 
-Steve. When the state operationalized DA in the 2016-17 school year, approximately 218 districts of our 1,390 districts and charters were eligible for assistance based on results from the California Schools Dashboard. 
+Steve. 
+When the state operationalized DA in the 2016-17 school year, approximately 218 districts of our 1,390 districts and charters were eligible for assistance based on results from the California Schools Dashboard. 
 
 Each of these dots represents a school district across the state that was eligible for assistance from the largest Los Angeles Unified to the smallest Redding School District.
 
@@ -251,7 +253,8 @@ class: top, left
 
 ???
 
-Steve.DA is state assistance provided to districts that fail to meet the performance criteria established by the State Board of Education (SBE). 
+Steve.
+DA is state assistance provided to districts that fail to meet the performance criteria established by the State Board of Education (SBE). 
 
 As such, DA is a multistage process that utilizes a district-based team of 4-12 members including superintendents, assistant superintendents, directors, principals, and front line staff including teachers, counselors, and support personnel. 
 
@@ -266,7 +269,7 @@ name: intervention plot
 
 .left-column[
 &lt;br&gt;&lt;br&gt;
-Most accountability interventions have limited effects on student learning outcomes. The greatest changes in student achievement occurred when states *invested sufficient resources* into district capacity and when districts and schools *implemented interventions effectively*.
+Most district-level accountability interventions have limited effects on student learning outcomes. The greatest changes in student achievement occurred when states *invested sufficient resources* into district capacity and when districts and schools *implemented interventions effectively*.
 ]
 
 
@@ -278,7 +281,8 @@ Most accountability interventions have limited effects on student learning outco
 
 ???
 
-Steve.Here we have illustrated the effects of some accountability initiatives nationwide. 
+Steve.
+Here we have illustrated the effects of some accountability initiatives nationwide. 
 
 Some initiatives like Tennessee’s iZones and the Lawrence takeover resulted in large gains in achievement, especially in mathematics. 
 
@@ -321,7 +325,32 @@ class: middle, center
 
 ???
 
-Shannon.We were interested in learning answers to two major questions. The first question was how assistance changed student achievement. That is to say, in 2016-17, when DA turned on officially for some districts, how did student achievement change?
+Shannon.
+We were interested in learning answers to two major questions. The first question was how assistance changed student achievement. That is to say, in 2016-17, when DA turned on officially for some districts, how did student achievement change?
+
+Overall Considerations?
+
+What is my research question?
+
+What is my treatment effect of interest?
+
+Where is the variance in my outcome?
+
+Where is the variance in my "treatment"?
+
+How many subjects change?
+
+When do they change?
+
+Do they only change in one direction?
+
+How can I ensure the best counterfactual comparisons?
+
+Use within-subjects comparisons where you can
+
+Use time to consider counterfactual trajectories
+
+What assumptions is my model making?
 
 ---
 name: second question
@@ -338,7 +367,8 @@ class: middle, center
 
 ???
 
-Shannon.Our second question focused on the achievement gap. We were interested in changes occurring to the achievement gap after the DA policy turned on for districts.
+Shannon.
+Our second question focused on the achievement gap. We were interested in changes occurring to the achievement gap after the DA policy turned on for districts.
 
 ---
 name: method
@@ -369,7 +399,8 @@ We estimated the impact of differentiated assistance on student achievement by c
 ]
 ???
 
-Shannon.Our full dataset included over 49,000 unique records by district, year, grade, and subject. We also captured data on district enrollment, proportion of students receiving free and reduced-price lunch, proportion of English learners, student race and ethnicity demographics, proportion of staff with master’s degrees, average teaching experience, average daily attendance, and district revenue. 
+Shannon.
+Our full dataset included over 49,000 unique records by district, year, grade, and subject. We also captured data on district enrollment, proportion of students receiving free and reduced-price lunch, proportion of English learners, student race and ethnicity demographics, proportion of staff with master’s degrees, average teaching experience, average daily attendance, and district revenue. 
 
 We estimated the impact of assistance using a difference-in-differences design. A DD design takes advantage of natural experiments (like the DA policy change), where something has happened to some but not others. In this case, we have assistance turning on at a specific point in time for some low performing districts but not for others. A DD approach provides robust estimates of the causal effect of a policy change in situations where random assignment is either impractical, impossible, or unethical. 
 
@@ -413,7 +444,8 @@ where `\(y_{dgt}\)` represents the dependent variable, standardized test scores,
 
 
 ???
-Shannon.We  compared differentiated assistance districts to a subset of 270 
+Shannon.
+We  compared differentiated assistance districts to a subset of 270 
 general assistance districts with both low status and growth in 2017, the same year our assistance policy turned on for some districts. We constructed this restricted sample using the California Schools Dashboard, which assigns every district a color based on its performance. THE CDE calculates each district's performance based on data from current and prior years, resulting in a five color-coded performance levels for each indicator. Our comparison districts performance increased by less than 15 points, had low or very low status, and were not eligible for assistance. Most of these districts were orange on the Dashboards's five-by-five colored table compared to DA districts, which were mostly red.
 
 ---
@@ -436,7 +468,8 @@ DD makes use of longitudinal data from treatment and control groups to obtain a 
 
 ???
 
-Shannon.So this is what a DD design is doing behind the scenes. DD makes use of longitudinal data from treatment and control groups to obtain an appropriate counterfactual to estimate a causal effect. DD estimates the effect of a specific intervention by comparing the changes in outcomes over time between a population that is enrolled in a program and a population that is not.
+Shannon.
+So this is what a DD design is doing behind the scenes. DD makes use of longitudinal data from treatment and control groups to obtain an appropriate counterfactual to estimate a causal effect. DD estimates the effect of a specific intervention by comparing the changes in outcomes over time between a population that is enrolled in a program and a population that is not.
 
 ---
 name: comparison
@@ -455,7 +488,8 @@ Our study represents two group: the bottom  line represents the trends in DA dis
 ]
 ???
 
-Shannon.Shannon.*Similar districts*. We compared districts receiving assistance to non assistance districts who experienced low status and growth on the California Schools Dashboard. The lower dashed line represents a subset of 270 non assistance districts with both low status and growth in 2017, the same year our assistance policy turned on for some districts. We constructed this sample using the California Schools Dashboard, which assigns every district a color based on its performance. The California Department of Education calculates each district’s performance based on data from current and prior years, resulting in five color-coded performance levels for each indicator. Red areas on the table represent very low status and change, whereas blue reflects high status and change. Our comparison group comprised districts whose performance increased by less than 15 points, had low or very low status, and were not eligible for assistance. Most of these districts were orange on the Dashboard’s five-by-five colored table compared to DA districts, which were mostly red.
+Shannon.
+Shannon.*Similar districts*. We compared districts receiving assistance to non assistance districts who experienced low status and growth on the California Schools Dashboard. The lower dashed line represents a subset of 270 non assistance districts with both low status and growth in 2017, the same year our assistance policy turned on for some districts. We constructed this sample using the California Schools Dashboard, which assigns every district a color based on its performance. The California Department of Education calculates each district’s performance based on data from current and prior years, resulting in five color-coded performance levels for each indicator. Red areas on the table represent very low status and change, whereas blue reflects high status and change. Our comparison group comprised districts whose performance increased by less than 15 points, had low or very low status, and were not eligible for assistance. Most of these districts were orange on the Dashboard’s five-by-five colored table compared to DA districts, which were mostly red.
 
 The figure depicts differences between three groups. The dotted line represents the performance of differentiated assistance districts across our analytic window, while the dashed line represents the performance of the subset of 270 low status and growth general assistance districts. Comparatively, the solid line represents districts with high status, those districts in the green and blue on the California Schools Dashboard. It is highly improbable that any of these districts would become eligible for DA. As evidenced in the graph, their performance actually improved during the eligibility year.
 
@@ -478,7 +512,8 @@ name: results-1
 
 ???
 
-Shannon.What’s the effect of assistance on achievement?
+Shannon.
+What’s the effect of assistance on achievement?
 
 These effects represent the mean difference between the treatment and control group in standard deviation units. So in Year 1 in ELA the mean difference in the assistance districts was .002 standard deviations lower than in non-assistance districts. The magnitude of this difference is extremely small and not detectably different from zero. In fact none of these differences are statistically different from zero. In plain language, assistance districts performed no better or worse than non assistance districts during the post policy years.
 
@@ -502,7 +537,8 @@ name: results-2
 
 ???
 
-Shannon.Effect of assistance on the achievement gap.
+Shannon.
+Effect of assistance on the achievement gap.
 
 This model examined the question about the effect of assistance on the achievement gap. Here we took all treated and control districts and divided them into low-income vs. non-low income districts, which creates 4 groups: Treated low-income, treated non-low income and so on.
 
@@ -572,13 +608,15 @@ Differentiated assistance may be limited due to the consistency and fidelity of 
 ???
 
 
-Dan.We know that English language arts (ELA) and math scores of assistance districts improved fractionally, but not meaningfully, compared to similar districts during the report study and that DA did not significantly reduce the achievement gap between low-income districts receiving assistance compared to other similar districts that did not receive assistance. We also know that having two years of data makes it difficult to measure the effects of differentiated assistance. It may take three to five years to get an accurate assessment.
+Dan.
 
-Sometimes, just being labeled a “low-performing school” leads to a decrease in school performance, regardless of the assistance level. Go back to 11.
+Improvements. DA has the right theory of action--Program Improvement is not the solution.
 
-Dan.Building capacity at the district level and holding a district accountable for improvement might mitigate many of the unintended consequences of accountability that result when schools feel punished for actions beyond their control. I’m sorry to mention Atlanta Public Schools, but the pressure to improve can force people to make bad choices. DA doesn’t focus on a single student test score, so it is less likely to have unintended consequences. However, the overall effects on student achievement might be limited. The effects of systems change may not be as impactful as the impact that can occur at the classroom level.
+Social Stigma. "Ashenfelter Dip" when low performers know that someone is watching their performance, the tend to perform worse; when high performers know someone's watching, they tend to perform better. These are called "anticipation effects" or when someone responds in a positive or negative way depending on how they anticipate things will go.
 
-County offices of education don’t implement differentiated assistance consistently across agencies. 
+District Interventions. Baseball analogy. Impact of county office is like determining how much a general manager in baseball contributed to a team winning the World Series.
+
+Consistency. There's a lot of variation across the system in terms of DA implementation, which leads to different outcomes for different LEAs.
 
 
 ---
@@ -614,19 +652,20 @@ Policymakers should use the current pause in accountability to make improvements
 
 ???
 
-Dan.The research supporting differentiated assistance is sound. It aims to get at the root cause of low student achievement, not just find a Band-aid or temporary solution. It also focuses on district systems, which is the place where the greatest change can happen to improve schools.
+Dan.
+The research supporting differentiated assistance is sound. It aims to get at the root cause of low student achievement, not just find a Band-aid or temporary solution. It also focuses on district systems, which is the place where the greatest change can happen to improve schools.
 
 Improvements in student achievement could take three to five years. Also, the pause in accountability due to the pandemic offers the opportunity for county offices of education to make strides in what’s working, what isn’t and make improvements as well as increase consistency in how differentiated assistance is delivered and measured.
 
 
 ---
-name: improvement-guide
+name: implementation-guide
 class: inverse, middle, center
 
 &lt;svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;height:4em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M511.9 175c-9.1-75.6-78.4-132.4-158.3-158.7C390 55.7 416 116.9 416 192h28.1L327.5 321.5c-2.5-.6-4.8-1.5-7.5-1.5h-48V192h112C384 76.8 315.1 0 256 0S128 76.8 128 192h112v128h-48c-2.7 0-5 .9-7.5 1.5L67.9 192H96c0-75.1 26-136.3 62.4-175.7C78.5 42.7 9.2 99.5.1 175c-1.1 9.1 6.8 17 16 17h8.7l136.7 151.9c-.7 2.6-1.6 5.2-1.6 8.1v128c0 17.7 14.3 32 32 32h128c17.7 0 32-14.3 32-32V352c0-2.9-.9-5.4-1.6-8.1L487.1 192h8.7c9.3 0 17.2-7.8 16.1-17z"&gt;&lt;/path&gt;&lt;/svg&gt;
 ## Improvement Guide
 
-[Improvement Guide](https://www.sdcoe.net/lls/assessment/Pages/evaluation-reports.aspx)
+[Implementation Guide](https://www.sdcoe.net/lls/assessment/Pages/evaluation-reports.aspx)
 
 ???
 

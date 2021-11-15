@@ -720,7 +720,7 @@ class: inverse, middle, center
 
 ???
 
-Dan. Link to improvement guide.
+Dan. Link to implementation guide.
 
 ---
 name: thank-you

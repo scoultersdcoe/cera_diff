@@ -731,10 +731,10 @@ class: inverse, middle, center
 
 ### Here's where you can find us...
 
-[Shannon Coulter](scoulter@sdcoe.net) | 
+[Shannon Coulter](mailto:scoulter@sdcoe.net) | 
 [@scoultersdcoe `r icons::fontawesome("github")`](https://github.com/scoultersdcoe)<br/>
-[Dan Wolfson](dwolfson@sdcoe.net) `r icons::icon_style(icons::fontawesome("circle"), scale = .5)`
-[Steven Green](steven.green@sdcoe.net)
+[Dan Wolfson](mailto:dwolfson@sdcoe.net) `r icons::icon_style(icons::fontawesome("circle"), scale = .5)`
+[Steven Green](mailto:steven.green@sdcoe.net)
 
 ???
 
